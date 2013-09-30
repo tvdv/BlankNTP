@@ -1,0 +1,9 @@
+{
+  "name": "Blank NTP",
+  "version": "0.1.0.0",
+  "description": "New Tab Page shows a blank page, rather than the chrome default",
+  "chrome_url_overrides": {
+      "newtab": "redirect.html"
+   },
+  "manifest_version": 2
+}
